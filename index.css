@@ -1,0 +1,156 @@
+body{
+    background-color: hsl(234, 29%, 20%);
+} 
+
+.para-one{
+    font-size: 3rem;
+    font-weight: 100;
+    margin: 1rem;
+}
+.para-two{
+    font-weight: bold;
+}
+.para-three{
+    margin: 0rem;
+    font-weight: bold;
+}
+.para-four{
+    margin: 0rem;
+    font-weight: bold;
+}
+.para-five{
+    margin: 0rem;
+    font-weight: bold;
+}
+.seconddiv{
+    padding: 1.5rem;
+}
+.divition{
+    background-color: white;
+    margin: 8rem 21.5rem 2rem 16rem;
+    border-radius: 9px;
+    height: 30rem;
+}
+.newdiv{
+    position: absolute;
+    top: 11%;
+    left: 50%;
+
+}
+input{
+    height: 2rem;
+    width: 19.5rem;
+&.error{
+    animation: shake 0.2s ease-in-out 0s 2;
+    border-color: red;
+    }
+}
+@keyframes shake {
+    0%{
+        margin-left:0rem;
+    }    
+    25%{
+        margin-left:0.5rem;
+    }
+    75%{
+        margin-left:0.5rem;
+    }
+    100%{
+        margin-left:0rem;
+    }
+
+}
+.butn{
+    padding-top: 1rem;
+}
+button{
+    background-color: hsl(4, 100%, 67%);
+    color: white;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+.spanone{
+    padding: 1rem;
+}
+
+@media only screen and (max-width:425px) {
+    .newdiv{
+        position:absolute;
+        margin: 0%;
+        padding: 0%;
+        visibility: hidden;
+        bottom: 0%;
+    }
+    .divition{
+        margin: 0%;
+        padding: 0%;
+        font-size: large;
+        padding: 15%;
+    }
+    p{
+        font-size: smaller;
+        bottom: 0%;
+    }
+    .para-one{
+        padding: 0%;
+        font-size: 3rem;
+    }
+    body{
+        background-color: white;
+        margin: 0%;
+        padding: 0%;
+        padding: 10%;
+        bottom: 0%;
+        max-width: 100%;
+
+    }
+    .seconddiv{
+        margin-top: 80%;
+        padding-top: 0%;
+    }
+    .imageone{
+        background-image:-webkit-image-set("./assets/images/illustration-sign-up-mobile.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        left: 0%;
+        padding-top: 0%;
+        overflow: hidden;
+        padding-left:3% ;
+    }
+}
+    @media only screen and (min-width:320px) and (max-width:425px) {
+        .seconddiv{
+            margin-top: 90%;
+        }
+        .para-one{
+            padding-top: 5%;
+            font-size:1.8rem ;
+        }
+        p{
+            font-size: medium;
+        }
+        input{
+            height: 1rem;
+            width: 16rem;
+        }
+        button{
+            height: 1.5rem;
+            border: 0%;
+            width: 16rem;
+        }
+    }
+    @media only screen and (min-width:1440px){
+        .newdiv{
+            top: 11.4rem;
+        }
+        .divition{
+            margin-top: 15rem;
+            margin-right: 24.3rem;
+        }
+    }
+    
+
